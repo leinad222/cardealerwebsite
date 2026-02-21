@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car-Dealer Website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1d36c0aa30.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div id="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <a href="#" class="logo"> <span>Max</span>wheels</a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#vehicles">Vehicles</a>
+        <a href="#services">Services</a>
+        <a href="#featured">Featured</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contacts">Contact</a>
+        <a href="#newsletter">Newsletter</a>
+      </nav>
+      <div id="login-btn">
+        <button class="btn">Login</button>
+        <i class="fa-solid fa-right-to-bracket"></i>
+      </div>
+    </header>
+
+    <div class="login-form-container">
+      <div class="close-btn" id="close-login-form">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+
+      <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <p>forget your password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create one</a></p>
+        <input type="submit" value="login now" class="btn" />
+        <div class="button">
+          <button class="btn">Login with Google</button>
+          <button class="btn">Login with Facebook</button>
+        </div>
+      </form>
+    </div>
+
+    <section class="home" id="home">
+      <h1 class="home-parallax" data-speed="-2">
+        Welcome to Maxwheels Car Dealer
+      </h1>
+      <img
+        class="home-parallax"
+        data-speed="-2"
+        src="images/interior 1.jpg"
+        alt=""
+      />
+      <a href="#" class="btn home-parallax" data-speed="7">Explore Cars </a>
+    </section>
+
+    <section class="stats-section">
+      <div class="stats-card">
+        <i class="fa-solid fa-house"></i>
+        <h3>150+</h3>
+        <p>Properties</p>
+      </div>
+      <div class="stats-card">
+        <i class="fa-solid fa-car"></i>
+        <h3>4770+</h3>
+        <p>Brands</p>
+      </div>
+      <div class="stats-card">
+        <i class="fa-solid fa-users"></i>
+        <h3>590+</h3>
+        <p>Happy Clients</p>
+      </div>
+      <div class="stats-card">
+        <i class="fa-solid fa-car"></i>
+        <h3>890+</h3>
+        <p>New Cars</p>
+      </div>
+    </section>
+
+    <section class="vechiles" id="vehicles">
+      <h1 class="heading">Our <span>Featured</span> Vehicles</h1>
+    
+      <div class="vechiles-slider">
+
+
+        <div class="wrapper">
+
+          <div class="box">
+              <div class="content">
+                <img src="images/car1.png" alt="Car 1">
+                <h3>new models from 2020-recent </h3>
+                <div class="price"> prices from €25,000 <span>and </span>more</div>
+                    <span class="fas fa-circle"></span>2020
+                    <span class="fas fa-circle"></span>2021
+                    <span class="fas fa-circle"></span>2022
+                    <span class="fas fa-circle"></span>2023
+                    <span class="fas fa-circle"></span>2024
+                    <span class="fas fa-circle"></span>2025
+                    <span class="fas fa-circle"></span>2026
+              </div>
+          </div>
+          <div class="box">
+              <div class="content">
+                <img src="images/car2.jpg" alt="Car 2">
+                <h3>used cars from 2010-2020 </h3>
+                <div class="price"> prices from €10,000 <span>and </span>more</div>
+                    <span class="fas fa-circle"></span>2010
+                    <span class="fas fa-circle"></span>2011
+                    <span class="fas fa-circle"></span>2012
+                    <span class="fas fa-circle"></span>2013
+                    <span class="fas fa-circle"></span>2014
+                    <span class="fas fa-circle"></span>2015
+                    <span class="fas fa-circle"></span>2016
+                    <span class="fas fa-circle"></span>2017
+                    <span class="fas fa-circle"></span>2018
+                    <span class="fas fa-circle"></span>2019
+              </div>
+          </div>
+          <div class="box">
+              <div class="content">
+                <img src="images/car3.jpg" alt="Car 3">
+                <h3>classic cars from 1950-2000 </h3>
+                <div class="price"> prices from €15,000 <span>and </span>more</div>
+                    <span class="fas fa-circle"></span>1950
+                    <span class="fas fa-circle"></span>1960
+                    <span class="fas fa-circle"></span>1970
+                    <span class="fas fa-circle"></span>1980
+                    <span class="fas fa-circle"></span>1990
+                    <span class="fas fa-circle"></span>2000
+              </div>
+          </div>
+          <div class="box">
+              <div class="content">
+                <img src="images/car4.jpg" alt="Car 4">
+                <h3>Choose Gearbox Type</h3>
+                <span class="fas fa-circle"></span><span class="Available">Manual</span>
+                <span class="fas fa-circle"></span><span class="Available">Automatic</span>
+                <span class="fas fa-circle"></span><span class="Available">Semi-Automatic</span>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+  <h1 class="heading">Our <span>Services</span></h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <i class="fa-solid fa-car"></i>
+      <h3>Car Sales</h3>
+      <p>We offer a wide range of new and used cars for sale, catering to various preferences and budgets.</p>
+      <a href="#" class="btn">read more</a>
+    </div>
+
+    <div class="box">
+      <i class="fa-solid fa-wrench"></i>
+      <h3>Maintenance & Repairs</h3>
+      <p>Our skilled technicians provide comprehensive maintenance and repair services to keep your vehicle running smoothly.</p>
+      <a href="#" class="btn">read more</a>
+    </div>
+
+    <div class="box">
+      <i class="fa-solid fa-handshake"></i>
+      <h3>Financing Options</h3>
+      <p>We offer flexible financing options to help you purchase your dream car with ease and convenience.</p>
+      <a href="#" class="btn">read more</a>
+    </div>
+      <div class="box">
+      <i class="fa-solid fa-car-side"></i>
+      <h3>Test Drives</h3>
+      <p>Experience the thrill of driving your desired car with our test drive services, allowing you to make an informed decision.</p>
+      <a href="#" class="btn">read more</a>
+    </div>
+  <div class="box">
+    <i class="fa-solid fa-car-burst"></i>
+    <h3>Trade-In Services</h3>
+    <p>Upgrade your current vehicle with our trade-in services, offering competitive values for your car.</p>
+    <a href="#" class="btn">read more</a>
+  </div>
+
+</div>
+  </section>
+
+<section class="featured" id="featured">
+  <h1 class="heading">Featured <span>Cars</span></h1>
+
+  <div class="featured-slider">
+    <div class="wrapper">
+      <div class="box">
+        <img src="images/car 7.jpg" alt="Featured Car 1">
+        <h3>2024 Tesla Model S</h3>
+        <div class="price">€80,000</div>
+        <a href="#" class="btn">read more</a>
+      </div>
+
+      <div class="box">
+        <img src="images/2023-bmw-xm.jpg" alt="Featured Car 2">
+        <h3>2023 BMW 3 Series</h3>
+        <div class="price">€40,000</div>
+        <a href="#" class="btn">read more</a>
+      </div>
+
+      <div class="box">
+        <img src="images/8456-RSetronGT53.jpg" alt="Featured Car 3">
+        <h3>2022 Audi A4</h3>
+        <div class="price">€35,000</div>
+        <a href="#" class="btn">read more</a>
+      </div>
+
+      <div class="box">
+        <img src="images/car 5.jpg" alt="Featured Car 4">
+        <h3>2021 Mercedes-Benz C-Class</h3>
+        <div class="price">€45,000</div>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<section class="newsletter" id="newsletter">
+
+<h3>Subscribe to Our Newsletter</h3>
+
+<p>Stay updated with the latest car deals and offers by subscribing to our newsletter.</p>
+<form action="">
+  <input type="email" placeholder="Enter your email" class="box" />
+  <input type="submit" value="Subscribe" class="btn" />
+</form>
+
+</section>
+
+<section class="review" id="reviews">
+  <h1 class="heading">Customer <span>Reviews</span></h1>
+
+  <div class="review-slider">
+    <div class="wrapper">
+      <div class="box">
+        <img src="images/Car-Link-Limited-content-hero-2-1.jpg" alt="">
+        <p>"Maxwheels provided excellent service and a great selection of cars. I found my dream car here!"</p>
+        <h3>Jennifer Paxton</h3>
+        <span>Car Enthusiast</span>
+      </div>
+
+      <div class="box">
+        <img src="images/FB4494756B4F86219EBB4040F32A855C.jpg" alt="">
+        <p>"The staff at Maxwheels were knowledgeable and helpful throughout the entire car-buying process."</p>
+        <h3>Jane Smith</h3>
+        <span>Satisfied Customer</span>
+      </div>
+
+      <div class="box">
+        <img src="images/The-Process-of-Test-Driving-a-Car-at-The-Dealership-Guide-1000x500.jpg" alt="">
+        <p>"I had a fantastic experience with Maxwheels. They made buying a car easy and enjoyable."</p>
+        <h3>Michael Johnson</h3>
+        <span>Happy Client</span>
+      </div>
+
+      <div class="box">
+        <img src="images/pexels-shkrabaanthony-7144209.jpg" alt="">
+        <p>"Maxwheels offers a wide range of cars and excellent customer service. Highly recommended!"</p>
+        <h3>Emily Davis</h3>
+        <span>Car Buyer</span>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+<section class="contacts" id="contacts">
+  <h1 class="heading">Contact <span>Us</span></h1>
+
+  <div class="contact-container">
+    <div class="contact-info">
+      <i class="fa-solid fa-location-dot"></i>
+      <h3>Address</h3>
+      <p>123 Main Street, Anytown, USA</p>
+    </div>
+
+    <div class="contact-info">
+      <i class="fa-solid fa-phone"></i>
+      <h3>Phone</h3>
+      <p>+1 234 567 8900</p>
+    </div>
+
+    <div class="contact-info">
+      <i class="fa-solid fa-envelope"></i>
+      <h3>Email</h3>
+      <p>info@maxwheels.com</p>
+    </div>
+
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968482413!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1693125661234!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</section>
+
+<section class="footer">
+  <div class="box-container">
+
+    <div class="box">
+      <h3>Quick Links</h3>
+      <a href="#home">Home</a>
+      <a href="#vehicles">Vehicles</a>
+      <a href="#services">Services</a>
+      <a href="#featured">Featured</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="#maps"><i class="fas fa-map-marker-alt"></i> Malta</a>
+
+
+    </div>
+    <div class="box">
+      <h3>Contact Info</h3>
+      <p><i class="fas fa-phone"></i> +1 234 567 8900</p>
+      <p><i class="fas fa-envelope"></i> info@maxwheels.com</p>
+      <p><i class="fas fa-map-marker-alt"></i> 123 Main Street, Anytown, USA</p>
+    </div>
+
+    <div class="box">
+      <h3>Follow Us</h3>
+      <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+      <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+      <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    </div>
+
+    <div class="box">
+      <h3>Newsletter</h3>
+      <p>Subscribe for latest updates</p>
+      <form action="">
+        <input type="email" placeholder="Enter your email" class="box">
+        <input type="submit" value="Subscribe" class="btn">
+      </form>
+    </div>
+
+  </div>
+
+  <div class="credit">
+    <p>&copy; 2026 Maxwheels. All rights reserved. | Designed by <span>Dr.</span>Web</p>
+  </div>
+
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
